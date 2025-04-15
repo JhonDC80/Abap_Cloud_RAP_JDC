@@ -3,7 +3,7 @@
 @UI.headerInfo.title.value: 'IdArt'
 @UI.headerInfo.description.type: #STANDARD
 @UI.headerInfo.description.value: 'IdArt'
-annotate view ZC_DT_JD_ART_02 with
+annotate view ZC_DT_JD_ART_02000 with
 {
   @UI.facet: [ {
     label: 'General Information', 

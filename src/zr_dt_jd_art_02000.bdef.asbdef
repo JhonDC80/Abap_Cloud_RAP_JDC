@@ -1,7 +1,7 @@
 managed implementation in class ZBP_R_DT_JD_ART_02 unique;
 strict ( 2 );
 with draft;
-define behavior for ZR_DT_JD_ART_02 alias ZrDtJdArt02
+define behavior for ZR_DT_JD_ART_02000 alias ZrDtJdArt02000
 persistent table ZDT_JD_ART_02
 draft table ZDT_JD_ART_02_D
 etag master LastChangedAt

@@ -1,7 +1,7 @@
-projection implementation in class ZBP_C_DT_JD_ART_02 unique;
+projection implementation in class ZBP_C_DT_JD_ART_02000 unique;
 strict ( 2 );
 use draft;
-define behavior for ZC_DT_JD_ART_02 alias ZcDtJdArt02
+define behavior for ZC_DT_JD_ART_02000 alias ZcDtJdArt02000
 use etag
 
 {
