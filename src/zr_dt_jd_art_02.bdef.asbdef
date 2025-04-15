@@ -1,0 +1,51 @@
+managed implementation in class ZBP_R_DT_JD_ART_02 unique;
+strict ( 2 );
+with draft;
+define behavior for ZR_DT_JD_ART_02 alias ZrDtJdArt02
+persistent table ZDT_JD_ART_02
+draft table ZDT_JD_ART_02_D
+etag master LastChangedAt
+lock master total etag LastChangedAt
+authorization master( global )
+
+{
+  field ( mandatory : create )
+   IdArt;
+
+  field ( readonly )
+   LocalCreatedBy,
+   LocalCreatedAt,
+   LocalLastChangedBy,
+   LocalLastChangedAt,
+   LastChangedAt;
+
+  field ( readonly : update )
+   IdArt;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZDT_JD_ART_02
+  {
+    IdArt = id_art;
+    Descr = descr;
+    Descr2 = descr2;
+    Color = color;
+    Piezas = piezas;
+    Stock = stock;
+    Url = url;
+    LocalCreatedBy = local_created_by;
+    LocalCreatedAt = local_created_at;
+    LocalLastChangedBy = local_last_changed_by;
+    LocalLastChangedAt = local_last_changed_at;
+    LastChangedAt = last_changed_at;
+  }
+}
