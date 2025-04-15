@@ -27,6 +27,8 @@ authorization master( global )
   update;
   delete;
 
+  validation stock_validation on save { create; update; field Stock; }
+
   draft action Activate optimized;
   draft action Discard;
   draft action Edit;

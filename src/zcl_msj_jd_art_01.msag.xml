@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCL_MSJ_JD_ART_01</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Clase de Mensajes APP Art</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCL_MSJ_JD_ART_01</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Cantidad de stock &amp; 1 debe ser mayor a 0</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
